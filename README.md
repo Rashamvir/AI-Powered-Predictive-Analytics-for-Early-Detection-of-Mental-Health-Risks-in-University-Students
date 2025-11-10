@@ -52,9 +52,6 @@ The primary objective is to enable **early intervention** by universities, couns
 
 ---
 
-## 🔁 Workflow / Pipeline
-
----
 
 ## ▶️ How to Run the Project
 
