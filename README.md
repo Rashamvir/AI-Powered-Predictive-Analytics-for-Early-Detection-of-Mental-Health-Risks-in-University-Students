@@ -24,6 +24,16 @@ The primary objective is to support **early detection and preventive interventio
 
 ---
 
+## 🔬Research Work
+An unpublished research paper based on this project is included in the repository for academic reference.
+It provides a detailed discussion of:
+
+-Problem formulation
+- Problem formulation
+- Methodology
+- Experimental results
+- Ethical considerations
+
 ## ✅ Key Features
 
 | Module | Description |
