@@ -5,6 +5,8 @@ A machine learning–driven approach to identify **student mental health risk le
 ---
 ## 🚀 Interactive Streamlit Demo
 
+https://mental-health-risk-self-assessment-demo.streamlit.app/
+
 This project includes a questionnaire-based Streamlit web application
 that provides a **basic mental health risk self-assessment** using
 AI-inspired rule-based logic.
