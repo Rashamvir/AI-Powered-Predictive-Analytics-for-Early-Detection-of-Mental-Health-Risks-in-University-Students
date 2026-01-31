@@ -3,6 +3,17 @@
 A machine learning–driven approach to identify **student mental health risk levels (Low, Medium, High)** using behavioral, academic, and lifestyle data, enabling early intervention and informed decision-making.
 
 ---
+## 🚀 Interactive Streamlit Demo
+
+This project includes a questionnaire-based Streamlit web application
+that provides a **basic mental health risk self-assessment** using
+AI-inspired rule-based logic.
+
+⚠️ The deployed app is intended for **awareness and decision support only**
+and does not provide medical diagnosis.
+
+The underlying machine learning models are documented separately
+for research and analysis purposes.
 
 ## 📍 Project Goal
 
