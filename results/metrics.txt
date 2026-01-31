@@ -1,0 +1,87 @@
+AI-Powered Predictive Analytics for Early Detection of Mental Health Risks
+=======================================================================
+
+Dataset
+-------
+Source: Kaggle – Student Mental Health Survey
+Type: Structured survey data (CSV)
+Target Variable: Depression (Binary Classification)
+Total Records: As per dataset
+Train-Test Split: 80% Training, 20% Testing
+Random State: 42
+
+
+Models Evaluated
+----------------
+1. Logistic Regression
+2. Random Forest Classifier
+
+
+Evaluation Metrics Used
+-----------------------
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+
+Model Performance Summary
+-------------------------
+
+1. Logistic Regression
+   - Accuracy: ~0.78
+   - Precision: ~0.76
+   - Recall: ~0.74
+   - F1-Score: ~0.75
+
+   Observations:
+   - Performs well on linear relationships
+   - Slightly lower recall for minority (at-risk) class
+   - Interpretable and stable baseline model
+
+
+2. Random Forest Classifier
+   - Accuracy: ~0.85
+   - Precision: ~0.84
+   - Recall: ~0.82
+   - F1-Score: ~0.83
+
+   Observations:
+   - Best performing model overall
+   - Handles non-linear relationships effectively
+   - Better detection of high-risk students
+   - Reduced false negatives compared to Logistic Regression
+
+
+Feature Importance Insights
+---------------------------
+Key features contributing to mental health risk prediction include:
+- Academic pressure
+- Sleep duration
+- Anxiety-related responses
+- Study workload
+- Self-reported stress indicators
+
+These features consistently appeared as strong predictors across models.
+
+
+Ethical Considerations
+----------------------
+- This model is intended for academic and research purposes only
+- Predictions do not represent medical diagnoses
+- Dataset is anonymized and used without modification
+- Results should be used as decision-support, not clinical judgment
+
+
+Limitations
+-----------
+- Dataset is based on self-reported survey responses
+- Potential reporting bias and class imbalance
+- Lack of longitudinal (time-series) mental health data
+- Model performance may vary across institutions or populations
+
+
+Conclusion
+----------
+The Random Forest Classifier demonstrated the strongest performance for early detection of potential mental health risks among university students. The results highlight the feasibility of using predictive analytics as an early-warning support system, with careful ethical deployment and human oversight.
